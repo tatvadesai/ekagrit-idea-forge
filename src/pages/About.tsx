@@ -20,68 +20,71 @@ const About = () => {
             {/* Header */}
             <div className="text-center space-y-6">
               <h1 className="font-space text-4xl md:text-5xl font-bold text-foreground">
-                About Ekagrit Ventures
+                Hi, I'm the person behind Ekagrit Ventures
               </h1>
               <p className="font-inter text-xl text-muted-foreground max-w-2xl mx-auto">
-                A pseudonymous founder building bridges between ideas and execution.
+                An MBA student who believes the best way to learn about startups is to connect with the people building them.
               </p>
             </div>
 
-            {/* Who's Behind Section */}
+            {/* My Story Section */}
             <ScrollReveal>
               <section className="space-y-8">
                 <h2 className="font-space text-2xl md:text-3xl font-semibold text-foreground">
-                  Who's Behind Ekagrit Ventures?
+                  My Story
                 </h2>
-                <div className="prose prose-lg max-w-none">
+                <div className="prose prose-lg max-w-none space-y-6">
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    A pseudonymous founder with a decade of experience building, scaling, and 
-                    advising early-stage companies. The focus isn't on credentials—it's on 
-                    clear thinking, honest feedback, and helping founders avoid the common 
-                    pitfalls that derail promising ideas.
+                    I'm currently pursuing my MBA from BITS Pilani, but my real education happens in conversations 
+                    with founders. I've always been drawn to people who take risks, who see opportunities where others see problems, 
+                    and who have the audacity to build something from nothing.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    Philosophy: The best ideas emerge from conversation, not isolation. 
-                    Most founders need a thinking partner, not another investor.
+                    I don't have a startup background yet—I'm the student, not the teacher. But I do have genuine curiosity, 
+                    fresh perspectives from my business studies, and an obsession with understanding what makes great companies tick.
+                  </p>
+                  <p className="font-inter text-muted-foreground leading-relaxed text-lg">
+                    This platform is my way of building relationships with founders while I'm still learning. 
+                    No hidden agendas, no equity conversations—just authentic connections with people I admire.
                   </p>
                 </div>
               </section>
             </ScrollReveal>
 
-            {/* What We Do Section */}
+            {/* What I Bring Section */}
             <ScrollReveal delay={0.1}>
               <section className="space-y-8">
                 <h2 className="font-space text-2xl md:text-3xl font-semibold text-foreground">
-                  What We Do
+                  What I Bring to the Table
                 </h2>
                 <div className="grid md:grid-cols-1 gap-6">
                   <div className="space-y-4">
                     <h3 className="font-space text-xl font-medium text-foreground">
-                      Offer Early Product Feedback
+                      Fresh Academic Perspective
                     </h3>
                     <p className="font-inter text-muted-foreground leading-relaxed">
-                      Get unbiased perspectives on your product direction, feature prioritization, 
-                      and user experience before you commit significant resources.
+                      I'm studying business strategy, operations, and finance at one of India's top institutions. 
+                      Sometimes an outside academic lens can spot things you're too close to see.
                     </p>
                   </div>
                   
                   <div className="space-y-4">
                     <h3 className="font-space text-xl font-medium text-foreground">
-                      Co-Brainstorming on Direction
+                      Genuine Curiosity
                     </h3>
                     <p className="font-inter text-muted-foreground leading-relaxed">
-                      Navigate strategic decisions, market positioning, and growth strategies 
-                      through structured thinking sessions designed to clarify your path forward.
+                      I ask questions because I genuinely want to understand, not because I'm trying to sell you something. 
+                      Every conversation teaches me something new about building businesses.
                     </p>
                   </div>
                   
                   <div className="space-y-4">
                     <h3 className="font-space text-xl font-medium text-foreground">
-                      Build-First, Founder-Friendly Thinking
+                      Long-term Thinking
                     </h3>
                     <p className="font-inter text-muted-foreground leading-relaxed">
-                      Practical advice from someone who's been in the builder's seat. 
-                      No theoretical frameworks—just real-world insights that help you ship faster.
+                      I'm building relationships for the long haul. Today's conversations become tomorrow's partnerships, 
+                      whether as an investor, operator, or fellow founder.
                     </p>
                   </div>
                 </div>
@@ -92,22 +95,36 @@ const About = () => {
             <ScrollReveal delay={0.2}>
               <section className="space-y-8 bg-muted/20 p-8 rounded-lg">
                 <h2 className="font-space text-2xl md:text-3xl font-semibold text-foreground">
-                  What We're Building Toward
+                  Where This Is Headed
                 </h2>
                 <div className="space-y-6">
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    This is step one of a long-term ambition to create a world-class investment 
-                    platform and founder ally. Today's conversations become tomorrow's partnerships.
+                    My long-term vision is to build something meaningful in the startup ecosystem—whether that's 
+                    starting my own company, joining an early-stage team, or eventually becoming an investor who actually understands what founders go through.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    The goal is to build a holding company that supports exceptional founders 
-                    with both capital and operational expertise—but only after establishing 
-                    genuine relationships built on trust and shared vision.
+                    But that's tomorrow's story. Today's story is about learning, connecting, and maybe adding value 
+                    to your journey in whatever small way I can. The relationships I build now will shape everything I do next.
                   </p>
                   <blockquote className="border-l-4 border-primary pl-6 italic font-inter text-foreground">
-                    "The best investments start as conversations between builders."
+                    "The best way to predict the future is to build relationships with the people creating it."
                   </blockquote>
                 </div>
+              </section>
+            </ScrollReveal>
+
+            {/* BITS Pilani Credibility */}
+            <ScrollReveal delay={0.3}>
+              <section className="text-center space-y-6">
+                <h3 className="font-space text-xl font-medium text-foreground">
+                  Currently Studying At
+                </h3>
+                <p className="font-inter text-2xl font-semibold text-primary">
+                  BITS Pilani - MBA
+                </p>
+                <p className="font-inter text-muted-foreground">
+                  One of India's premier institutes for technology and management education
+                </p>
               </section>
             </ScrollReveal>
           </motion.div>

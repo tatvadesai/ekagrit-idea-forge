@@ -76,10 +76,10 @@ const Contact = () => {
             {/* Header */}
             <div className="text-center space-y-6">
               <h1 className="font-space text-4xl md:text-5xl font-bold text-foreground">
-                Let's Talk
+                Let's Connect
               </h1>
               <p className="font-inter text-xl text-muted-foreground">
-                Have an idea? Want a second brain? Let's talk. No pressure, no agenda.
+                Building something interesting? I'd love to hear about it. No pitch deck required—just bring your curiosity and passion.
               </p>
             </div>
 
@@ -156,7 +156,7 @@ const Contact = () => {
                   disabled={isSubmitting}
                   className="w-full bg-primary hover:bg-primary/90 text-white font-medium py-3"
                 >
-                  {isSubmitting ? "Sending..." : "Send Message"}
+                  {isSubmitting ? "Sending..." : "Start the Conversation"}
                 </Button>
               </form>
             </ScrollReveal>
@@ -168,8 +168,8 @@ const Contact = () => {
                   What happens next?
                 </h3>
                 <p className="font-inter text-muted-foreground">
-                  We'll review your message and get back to you within 24 hours. 
-                  If it's a good fit, we'll schedule a conversation to dive deeper.
+                  I'll get back to you within 24 hours. If there's mutual interest, we can hop on a call 
+                  or grab coffee (if you're in India) to dive deeper into what you're building.
                 </p>
               </div>
             </ScrollReveal>

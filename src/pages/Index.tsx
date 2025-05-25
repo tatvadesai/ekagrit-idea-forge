@@ -27,18 +27,19 @@ const Index = () => {
             className="space-y-8"
           >
             <h1 className="font-space text-4xl md:text-6xl lg:text-7xl font-bold text-foreground leading-tight">
-              Ideas wanted.{" "}
-              <span className="text-primary">Vision required.</span>
+              Connect.{" "}
+              <span className="text-primary">Build.</span>{" "}
+              Learn.
             </h1>
             
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2, ease: "easeOut" }}
-              className="font-inter text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed"
+              className="font-inter text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
             >
-              Ekagrit Ventures is a solo-backed platform helping early-stage founders 
-              shape and sharpen bold ideas. Not a fund—yet. Just a space to talk, think, and build.
+              I'm an MBA student at BITS Pilani who's obsessed with startups and the people who build them. 
+              This is my space to connect with founders, learn from your journey, and maybe offer a fresh perspective along the way.
             </motion.p>
             
             <motion.div
@@ -51,19 +52,35 @@ const Index = () => {
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-medium px-8 py-3 text-lg"
               >
-                Start the Conversation
+                Let's Connect
               </Button>
             </motion.div>
           </motion.div>
         </div>
       </section>
 
-      {/* Three Pillars Section */}
-      <section className="py-20 px-6 bg-muted/20">
+      {/* Why I'm Building This Section */}
+      <section className="py-16 px-6 bg-muted/20">
+        <div className="container mx-auto max-w-4xl text-center">
+          <ScrollReveal>
+            <h2 className="font-space text-3xl md:text-4xl font-bold text-foreground mb-8">
+              Why I'm Building This
+            </h2>
+            <p className="font-inter text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
+              Startups fascinate me. The audacity to build something from nothing, the resilience to keep going when everything breaks, 
+              the vision to see what others can't—that's what I want to be around. I'm not here to pitch you or ask for equity. 
+              I just want to learn from people who are actually doing it.
+            </p>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* How We Connect Section */}
+      <section className="py-20 px-6">
         <div className="container mx-auto max-w-6xl">
           <ScrollReveal>
             <h2 className="font-space text-3xl md:text-4xl font-bold text-center text-foreground mb-16">
-              How We Help
+              How We Connect
             </h2>
           </ScrollReveal>
           
@@ -87,6 +104,37 @@ const Index = () => {
         </div>
       </section>
 
+      {/* What I'm Looking For Section */}
+      <section className="py-20 px-6 bg-muted/20">
+        <div className="container mx-auto max-w-4xl">
+          <ScrollReveal>
+            <h2 className="font-space text-3xl md:text-4xl font-bold text-center text-foreground mb-12">
+              What I'm Looking For
+            </h2>
+            <div className="grid md:grid-cols-2 gap-8">
+              <div className="space-y-4">
+                <h3 className="font-space text-xl font-semibold text-foreground">
+                  Early-stage Founders
+                </h3>
+                <p className="font-inter text-muted-foreground leading-relaxed">
+                  If you're pre-seed, seed, or just getting started—perfect. I love hearing about ideas in their raw form 
+                  and the challenges you're facing as you figure things out.
+                </p>
+              </div>
+              <div className="space-y-4">
+                <h3 className="font-space text-xl font-semibold text-foreground">
+                  Genuine Conversations
+                </h3>
+                <p className="font-inter text-muted-foreground leading-relaxed">
+                  No pitches required. Just real talk about what you're building, what's working, what's not, 
+                  and where you're headed next.
+                </p>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
       {/* Testimonial Section */}
       <section className="py-20 px-6">
         <div className="container mx-auto max-w-4xl text-center">
@@ -103,16 +151,16 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Subfooter Callout */}
+      {/* Call to Action */}
       <section id="contact-section" className="py-20 px-6 bg-primary text-white">
         <div className="container mx-auto max-w-4xl text-center">
           <ScrollReveal>
             <div className="space-y-6">
               <h2 className="font-space text-2xl md:text-3xl font-bold">
-                Eventually, this becomes a holding company.
+                Building connections today, building companies tomorrow.
               </h2>
               <p className="font-inter text-xl text-white/90">
-                Right now, it's a conversation.
+                Let's start with a conversation.
               </p>
               <Button 
                 variant="secondary" 
@@ -120,7 +168,7 @@ const Index = () => {
                 onClick={() => window.location.href = '/contact'}
                 className="bg-white text-primary hover:bg-white/90 font-medium px-8 py-3"
               >
-                Let's Talk
+                Get In Touch
               </Button>
             </div>
           </ScrollReveal>
