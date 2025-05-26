@@ -1,23 +1,23 @@
 
 export const services = [
   {
-    title: "Connect & Brainstorm",
-    description: "Let's bounce ideas around. I'm genuinely curious about what you're building and love diving deep into startup challenges.",
+    title: "connect & explore",
+    description: "let's talk about what you're creating. whether it's art, a business, content, or any project - i'm genuinely curious about your journey.",
     icon: "💡"
   },
   {
-    title: "Fresh Perspective",
-    description: "Sometimes you need someone outside your bubble. As an MBA student studying businesses, I can offer a different lens on your idea.",
+    title: "fresh eyes",
+    description: "sometimes you need someone outside your world. as an mba student, i can offer a different perspective on whatever you're building.",
     icon: "🎯"
   },
   {
-    title: "Genuine Conversations",
-    description: "No agenda, no equity asks. Just authentic founder-to-founder conversations about the journey of building something meaningful.",
+    title: "real conversations",
+    description: "no agenda, no sales pitch. just authentic talks about the ups and downs of creating something you care about.",
     icon: "⚡"
   }
 ];
 
 export const testimonial = {
-  quote: "Finally, someone who gets excited about ideas without immediately talking about funding rounds.",
-  author: "Founder, Early-stage SaaS"
+  quote: "finally, someone who gets excited about creative projects without immediately asking about business models.",
+  author: "creator, design studio"
 };

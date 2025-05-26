@@ -76,10 +76,10 @@ const Contact = () => {
             {/* Header */}
             <div className="text-center space-y-6">
               <h1 className="font-space text-4xl md:text-5xl font-bold text-foreground">
-                Let's Connect
+                let's connect
               </h1>
               <p className="font-inter text-xl text-muted-foreground">
-                Building something interesting? I'd love to hear about it. No pitch deck required—just bring your curiosity and passion.
+                creating something interesting? i'd love to hear about it. no pitch deck required—just bring your curiosity and passion.
               </p>
             </div>
 
@@ -127,7 +127,7 @@ const Contact = () => {
                       name="message"
                       value={formData.message}
                       onChange={handleInputChange}
-                      placeholder="Tell us about your idea, challenge, or what you're working on..."
+                      placeholder="tell me about your project, challenge, or what you're creating..."
                       rows={6}
                       required
                       className="font-inter resize-none"
@@ -156,7 +156,7 @@ const Contact = () => {
                   disabled={isSubmitting}
                   className="w-full bg-primary hover:bg-primary/90 text-white font-medium py-3"
                 >
-                  {isSubmitting ? "Sending..." : "Start the Conversation"}
+                  {isSubmitting ? "sending..." : "start the conversation"}
                 </Button>
               </form>
             </ScrollReveal>
@@ -165,11 +165,11 @@ const Contact = () => {
             <ScrollReveal delay={0.1}>
               <div className="text-center space-y-4 pt-8 border-t border-border/40">
                 <h3 className="font-space text-lg font-medium text-foreground">
-                  What happens next?
+                  what happens next?
                 </h3>
                 <p className="font-inter text-muted-foreground">
-                  I'll get back to you within 24 hours. If there's mutual interest, we can hop on a call 
-                  or grab coffee (if you're in India) to dive deeper into what you're building.
+                  i'll get back to you within 24 hours. if there's mutual interest, we can hop on a call 
+                  or grab coffee (if you're in india) to dive deeper into what you're creating.
                 </p>
               </div>
             </ScrollReveal>
