@@ -17,7 +17,7 @@ const Contact = () => {
     name: "",
     email: "",
     message: "",
-    subscribe: false,
+    stayInLoop: false,
   });
   const { toast } = useToast();
 
@@ -25,14 +25,35 @@ const Contact = () => {
     e.preventDefault();
     setIsSubmitting(true);
 
-    // Simulate form submission
     try {
-      // In a real app, you'd send this to your serverless function
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      // You can replace this webhook URL with your Zapier webhook
+      // For now, we'll simulate the submission
+      const webhookUrl = "YOUR_ZAPIER_WEBHOOK_URL_HERE";
+      
+      if (webhookUrl !== "YOUR_ZAPIER_WEBHOOK_URL_HERE") {
+        await fetch(webhookUrl, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          mode: "no-cors",
+          body: JSON.stringify({
+            name: formData.name,
+            email: formData.email,
+            message: formData.message,
+            stayInLoop: formData.stayInLoop,
+            timestamp: new Date().toISOString(),
+            source: "contact_form"
+          }),
+        });
+      } else {
+        // Simulate submission for demo
+        await new Promise(resolve => setTimeout(resolve, 1500));
+      }
       
       toast({
-        title: "Message sent successfully!",
-        description: "We'll get back to you within 24 hours.",
+        title: "message sent!",
+        description: "thanks for reaching out. i'll get back to you within 24 hours.",
       });
       
       // Reset form
@@ -40,12 +61,12 @@ const Contact = () => {
         name: "",
         email: "",
         message: "",
-        subscribe: false,
+        stayInLoop: false,
       });
     } catch (error) {
       toast({
-        title: "Something went wrong",
-        description: "Please try again or reach out directly.",
+        title: "something went wrong",
+        description: "please try again or reach out directly.",
         variant: "destructive",
       });
     } finally {
@@ -137,17 +158,17 @@ const Contact = () => {
 
                   <div className="flex items-center space-x-2">
                     <Checkbox
-                      id="subscribe"
-                      checked={formData.subscribe}
+                      id="stayInLoop"
+                      checked={formData.stayInLoop}
                       onCheckedChange={(checked) =>
-                        setFormData(prev => ({ ...prev, subscribe: checked as boolean }))
+                        setFormData(prev => ({ ...prev, stayInLoop: checked as boolean }))
                       }
                     />
                     <Label
-                      htmlFor="subscribe"
+                      htmlFor="stayInLoop"
                       className="font-inter text-sm text-muted-foreground"
                     >
-                      subscribe for occasional updates (no spam, unsubscribe anytime)
+                      keep me in the loop with occasional updates about interesting projects and connections
                     </Label>
                   </div>
                 </div>
@@ -162,7 +183,7 @@ const Contact = () => {
               </form>
             </ScrollReveal>
 
-            {/* Additional Info */}
+            {/* Setup Instructions */}
             <ScrollReveal delay={0.1}>
               <div className="text-center space-y-4 pt-8 border-t border-border/40">
                 <h3 className="font-space text-lg font-medium text-foreground">
