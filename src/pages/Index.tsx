@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import Navigation from "@/components/navigation";
 import Footer from "@/components/footer";
 import ScrollReveal from "@/components/scroll-reveal";
-import { services, testimonial } from "@/data/services";
+import { services } from "@/data/services";
 
 const Index = () => {
   const scrollToContact = () => {
@@ -69,7 +69,7 @@ const Index = () => {
             <p className="font-inter text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               creators fascinate me. the courage to make something from nothing, the persistence when things don't work, 
               the vision to see possibilities others miss—that's what i want to be around. whether you're building a business, 
-              creating art, launching content, or pursuing any ambitious project, i'm here to connect and catalyze your growth.
+              creating art, launching content, or pursuing any ambitious project, i'm here to connect and explore together.
             </p>
           </ScrollReveal>
         </div>
@@ -160,22 +160,6 @@ const Index = () => {
                 <p className="font-inter text-sm text-muted-foreground">access to capital and guidance networks</p>
               </div>
             </div>
-          </ScrollReveal>
-        </div>
-      </section>
-
-      {/* Testimonial Section */}
-      <section className="py-20 px-6 bg-muted/20">
-        <div className="container mx-auto max-w-4xl text-center">
-          <ScrollReveal>
-            <blockquote className="space-y-6">
-              <p className="font-space text-2xl md:text-3xl font-medium text-foreground italic">
-                "{testimonial.quote}"
-              </p>
-              <footer className="text-muted-foreground font-inter">
-                — {testimonial.author}
-              </footer>
-            </blockquote>
           </ScrollReveal>
         </div>
       </section>

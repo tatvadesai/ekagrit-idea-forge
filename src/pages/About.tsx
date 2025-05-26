@@ -23,7 +23,7 @@ const About = () => {
                 hi, i'm the person behind ekagrit
               </h1>
               <p className="font-inter text-xl text-muted-foreground max-w-2xl mx-auto">
-                an mba student who believes the best way to learn about creating is to connect with the people building things.
+                an mba student curious about connecting with people who build things.
               </p>
             </div>
 
@@ -42,11 +42,11 @@ const About = () => {
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
                     my passion lies in business, business models, founders, promoters, and everything that connects to people 
                     who build. whether you're launching a startup, creating art, building content, or pursuing any ambitious project—
-                    i want to understand what makes you tick and how i can help you grow.
+                    i want to understand what makes you tick and explore how we can grow together.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    this platform is my way of building relationships while i'm still learning. think of it as my version 
-                    of what michael ovitz built in hollywood—a network that creates opportunities and catalyzes growth for talented people.
+                    this platform is my way of building relationships while i'm still learning. it's a space for curious 
+                    conversations and meaningful connections with people who are creating things.
                   </p>
                 </div>
               </section>
@@ -61,11 +61,11 @@ const About = () => {
                 <div className="grid md:grid-cols-1 gap-6">
                   <div className="space-y-4">
                     <h3 className="font-space text-xl font-medium text-foreground">
-                      connector's mindset
+                      curious mindset
                     </h3>
                     <p className="font-inter text-muted-foreground leading-relaxed">
-                      i see patterns and connections others miss. my goal is to become the person who introduces 
-                      the right people at the right time, creating value for everyone involved.
+                      i genuinely enjoy learning about different projects and connecting with interesting people. 
+                      sometimes the best conversations happen when you bring together the right minds.
                     </p>
                   </div>
                   
@@ -84,8 +84,8 @@ const About = () => {
                       business strategy insights
                     </h3>
                     <p className="font-inter text-muted-foreground leading-relaxed">
-                      i'm studying business strategy, operations, and finance at one of india's top institutions. 
-                      sometimes an outside perspective can spot opportunities you're too close to see.
+                      i'm studying business strategy, operations, and finance. sometimes an outside perspective 
+                      can spot opportunities you're too close to see.
                     </p>
                   </div>
                 </div>
@@ -100,16 +100,15 @@ const About = () => {
                 </h2>
                 <div className="space-y-6">
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    my long-term vision is to build india's most connected creative and business network. 
-                    i want to be the person who helps talented people find the right opportunities, partnerships, and resources to scale their vision.
+                    i'm fascinated by the idea of building networks and connecting talented people. 
+                    today i'm learning and meeting interesting creators. tomorrow, who knows what we'll build together.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    think michael ovitz meets indian innovation ecosystem. today i'm learning and connecting. 
-                    tomorrow i might be running a platform, a holding company, or something we haven't even imagined yet. 
-                    but it all starts with relationships.
+                    this is driven by pure curiosity—i want to understand how different people approach building things, 
+                    what challenges they face, and how connections can help everyone grow.
                   </p>
                   <blockquote className="border-l-4 border-primary pl-6 italic font-inter text-foreground">
-                    "the best way to predict the future is to build relationships with the people creating it."
+                    "the best way to understand the future is to talk to the people creating it."
                   </blockquote>
                 </div>
               </section>

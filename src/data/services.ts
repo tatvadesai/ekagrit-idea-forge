@@ -16,8 +16,3 @@ export const services = [
     icon: "📈"
   }
 ];
-
-export const testimonial = {
-  quote: "connected me with the exact person i needed to scale my creative agency. the network access is incredible.",
-  author: "founder, creative studio"
-};
