@@ -1,23 +1,23 @@
 
 export const services = [
   {
-    title: "connect & explore",
-    description: "let's talk about what you're creating. whether it's art, a business, content, or any project - i'm genuinely curious about your journey.",
-    icon: "💡"
+    title: "catalyst & connector",
+    description: "i help talented people find the right opportunities, partnerships, and connections. whether you're building a startup, creating art, or launching any project.",
+    icon: "🚀"
   },
   {
-    title: "fresh eyes",
-    description: "sometimes you need someone outside your world. as an mba student, i can offer a different perspective on whatever you're building.",
-    icon: "🎯"
+    title: "network access",
+    description: "leverage my bits pilani network and india's vibrant startup ecosystem. access to founders, creators, investors, and innovators across industries.",
+    icon: "🌐"
   },
   {
-    title: "real conversations",
-    description: "no agenda, no sales pitch. just authentic talks about the ups and downs of creating something you care about.",
-    icon: "⚡"
+    title: "growth strategy",
+    description: "fresh perspective on scaling your vision. as an mba student, i bring business strategy insights to help you think bigger and execute better.",
+    icon: "📈"
   }
 ];
 
 export const testimonial = {
-  quote: "finally, someone who gets excited about creative projects without immediately asking about business models.",
-  author: "creator, design studio"
+  quote: "connected me with the exact person i needed to scale my creative agency. the network access is incredible.",
+  author: "founder, creative studio"
 };

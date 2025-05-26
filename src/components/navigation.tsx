@@ -10,9 +10,9 @@ const Navigation = () => {
   const { theme, setTheme } = useTheme();
 
   const navItems = [
-    { name: "Home", path: "/" },
-    { name: "About", path: "/about" },
-    { name: "Contact", path: "/contact" },
+    { name: "home", path: "/" },
+    { name: "about", path: "/about" },
+    { name: "contact", path: "/contact" },
   ];
 
   return (
@@ -20,7 +20,7 @@ const Navigation = () => {
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <Link to="/" className="font-space font-bold text-xl text-primary hover:text-primary/80 transition-colors">
-            Ekagrit Ventures
+            ekagrit ventures
           </Link>
           
           <div className="flex items-center space-x-8">
@@ -56,7 +56,7 @@ const Navigation = () => {
             >
               <Sun className="h-4 w-4 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
               <Moon className="absolute h-4 w-4 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
-              <span className="sr-only">Toggle theme</span>
+              <span className="sr-only">toggle theme</span>
             </Button>
           </div>
         </div>

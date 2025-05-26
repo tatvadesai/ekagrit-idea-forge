@@ -40,12 +40,13 @@ const About = () => {
                     and who have the courage to make something from nothing.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    i don't have a creative background yet—i'm the student, not the teacher. but i do have genuine curiosity, 
-                    fresh perspectives from my business studies, and a fascination with understanding what makes great projects work.
+                    my passion lies in business, business models, founders, promoters, and everything that connects to people 
+                    who build. whether you're launching a startup, creating art, building content, or pursuing any ambitious project—
+                    i want to understand what makes you tick and how i can help you grow.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    this platform is my way of building relationships with creators while i'm still learning. 
-                    no hidden agendas, no business pitches—just authentic connections with people doing interesting things.
+                    this platform is my way of building relationships while i'm still learning. think of it as my version 
+                    of what michael ovitz built in hollywood—a network that creates opportunities and catalyzes growth for talented people.
                   </p>
                 </div>
               </section>
@@ -55,56 +56,57 @@ const About = () => {
             <ScrollReveal delay={0.1}>
               <section className="space-y-8">
                 <h2 className="font-space text-2xl md:text-3xl font-semibold text-foreground">
-                  what i bring
+                  what i bring to the table
                 </h2>
                 <div className="grid md:grid-cols-1 gap-6">
                   <div className="space-y-4">
                     <h3 className="font-space text-xl font-medium text-foreground">
-                      fresh perspective
+                      connector's mindset
+                    </h3>
+                    <p className="font-inter text-muted-foreground leading-relaxed">
+                      i see patterns and connections others miss. my goal is to become the person who introduces 
+                      the right people at the right time, creating value for everyone involved.
+                    </p>
+                  </div>
+                  
+                  <div className="space-y-4">
+                    <h3 className="font-space text-xl font-medium text-foreground">
+                      bits pilani network
+                    </h3>
+                    <p className="font-inter text-muted-foreground leading-relaxed">
+                      access to one of india's most vibrant startup and innovation ecosystems. founders, investors, 
+                      industry leaders, and brilliant minds across every sector you can imagine.
+                    </p>
+                  </div>
+                  
+                  <div className="space-y-4">
+                    <h3 className="font-space text-xl font-medium text-foreground">
+                      business strategy insights
                     </h3>
                     <p className="font-inter text-muted-foreground leading-relaxed">
                       i'm studying business strategy, operations, and finance at one of india's top institutions. 
-                      sometimes an outside lens can spot things you're too close to see.
-                    </p>
-                  </div>
-                  
-                  <div className="space-y-4">
-                    <h3 className="font-space text-xl font-medium text-foreground">
-                      genuine curiosity
-                    </h3>
-                    <p className="font-inter text-muted-foreground leading-relaxed">
-                      i ask questions because i genuinely want to understand, not because i'm trying to sell you something. 
-                      every conversation teaches me something new about creating and building.
-                    </p>
-                  </div>
-                  
-                  <div className="space-y-4">
-                    <h3 className="font-space text-xl font-medium text-foreground">
-                      long-term thinking
-                    </h3>
-                    <p className="font-inter text-muted-foreground leading-relaxed">
-                      i'm building relationships for the long haul. today's conversations become tomorrow's collaborations, 
-                      whether as a supporter, collaborator, or fellow creator.
+                      sometimes an outside perspective can spot opportunities you're too close to see.
                     </p>
                   </div>
                 </div>
               </section>
             </ScrollReveal>
 
-            {/* Future Vision Section */}
+            {/* Vision Section */}
             <ScrollReveal delay={0.2}>
               <section className="space-y-8 bg-muted/20 p-8 rounded-lg">
                 <h2 className="font-space text-2xl md:text-3xl font-semibold text-foreground">
-                  where this is headed
+                  the bigger picture
                 </h2>
                 <div className="space-y-6">
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    my long-term vision is to build something meaningful in the creative ecosystem—whether that's 
-                    starting my own project, joining an interesting team, or eventually supporting creators who are building amazing things.
+                    my long-term vision is to build india's most connected creative and business network. 
+                    i want to be the person who helps talented people find the right opportunities, partnerships, and resources to scale their vision.
                   </p>
                   <p className="font-inter text-muted-foreground leading-relaxed text-lg">
-                    but that's tomorrow's story. today's story is about learning, connecting, and maybe adding value 
-                    to your journey in whatever small way i can. the relationships i build now will shape everything i do next.
+                    think michael ovitz meets indian innovation ecosystem. today i'm learning and connecting. 
+                    tomorrow i might be running a platform, a holding company, or something we haven't even imagined yet. 
+                    but it all starts with relationships.
                   </p>
                   <blockquote className="border-l-4 border-primary pl-6 italic font-inter text-foreground">
                     "the best way to predict the future is to build relationships with the people creating it."

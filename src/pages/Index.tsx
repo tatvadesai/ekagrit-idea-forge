@@ -39,7 +39,7 @@ const Index = () => {
               className="font-inter text-lg md:text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed"
             >
               i'm an mba student at bits pilani passionate about business, creators, and people who build. 
-              this is where artists, entrepreneurs, makers, and dreamers connect to grow together.
+              this is where visionaries, artists, entrepreneurs, and dreamers connect to grow bigger together.
             </motion.p>
             
             <motion.div
@@ -52,7 +52,7 @@ const Index = () => {
                 size="lg" 
                 className="bg-primary hover:bg-primary/90 text-white font-medium px-8 py-3 text-lg"
               >
-                Let's Connect
+                let's connect
               </Button>
             </motion.div>
           </motion.div>
@@ -68,8 +68,8 @@ const Index = () => {
             </h2>
             <p className="font-inter text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
               creators fascinate me. the courage to make something from nothing, the persistence when things don't work, 
-              the vision to see possibilities others miss—that's what i want to be around. whether you're building a startup, 
-              creating art, or launching any project, i'm here to connect and learn from your journey.
+              the vision to see possibilities others miss—that's what i want to be around. whether you're building a business, 
+              creating art, launching content, or pursuing any ambitious project, i'm here to connect and catalyze your growth.
             </p>
           </ScrollReveal>
         </div>
@@ -117,17 +117,17 @@ const Index = () => {
                   creators & builders
                 </h3>
                 <p className="font-inter text-muted-foreground leading-relaxed">
-                  whether you're launching a startup, creating art, building content, or working on any passion project—
-                  i love hearing about ideas in their raw form and the journey you're on.
+                  startup founders, artists, content creators, business builders, tech innovators, social entrepreneurs—
+                  anyone building something meaningful and ambitious.
                 </p>
               </div>
               <div className="space-y-4">
                 <h3 className="font-space text-xl font-semibold text-foreground">
-                  authentic conversations
+                  visionaries & dreamers
                 </h3>
                 <p className="font-inter text-muted-foreground leading-relaxed">
-                  no pitches required. just real talk about what you're creating, what's working, what's challenging, 
-                  and where you're headed next.
+                  people who see opportunities others miss, who aren't afraid to take risks, 
+                  and who want to make their mark on the world through their work.
                 </p>
               </div>
             </div>
@@ -135,8 +135,37 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Testimonial Section */}
+      {/* BITS Network Section */}
       <section className="py-20 px-6">
+        <div className="container mx-auto max-w-4xl text-center">
+          <ScrollReveal>
+            <h2 className="font-space text-3xl md:text-4xl font-bold text-foreground mb-8">
+              the bits advantage
+            </h2>
+            <p className="font-inter text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto mb-8">
+              being at bits pilani gives me access to one of india's most vibrant startup and innovation ecosystems. 
+              this network becomes your network—connecting you to the right people at the right time.
+            </p>
+            <div className="grid md:grid-cols-3 gap-6 mt-12">
+              <div className="space-y-2">
+                <h4 className="font-space font-medium text-foreground">startup founders</h4>
+                <p className="font-inter text-sm text-muted-foreground">access to ambitious builders across industries</p>
+              </div>
+              <div className="space-y-2">
+                <h4 className="font-space font-medium text-foreground">industry leaders</h4>
+                <p className="font-inter text-sm text-muted-foreground">connections to executives and decision makers</p>
+              </div>
+              <div className="space-y-2">
+                <h4 className="font-space font-medium text-foreground">investors & mentors</h4>
+                <p className="font-inter text-sm text-muted-foreground">access to capital and guidance networks</p>
+              </div>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      {/* Testimonial Section */}
+      <section className="py-20 px-6 bg-muted/20">
         <div className="container mx-auto max-w-4xl text-center">
           <ScrollReveal>
             <blockquote className="space-y-6">
@@ -157,7 +186,7 @@ const Index = () => {
           <ScrollReveal>
             <div className="space-y-6">
               <h2 className="font-space text-2xl md:text-3xl font-bold">
-                building connections today, creating together tomorrow.
+                building connections today, creating the future tomorrow.
               </h2>
               <p className="font-inter text-xl text-white/90">
                 let's start with a conversation.
