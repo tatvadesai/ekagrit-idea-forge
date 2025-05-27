@@ -1,4 +1,3 @@
-
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
@@ -12,6 +11,7 @@ const Navigation = () => {
   const navItems = [
     { name: "home", path: "/" },
     { name: "about", path: "/about" },
+    { name: "writings", path: "/writings" },
     { name: "contact", path: "/contact" },
   ];
 

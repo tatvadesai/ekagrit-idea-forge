@@ -8,6 +8,8 @@ import { ThemeProvider } from "@/components/theme-provider";
 import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+import Writings from "./pages/Writings";
+import WritingPost from "./pages/WritingPost";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +24,8 @@ const App = () => (
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
+            <Route path="/writings" element={<Writings />} />
+            <Route path="/writings/:slug" element={<WritingPost />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
